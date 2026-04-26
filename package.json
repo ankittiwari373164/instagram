@@ -1,0 +1,18 @@
+{
+  "name": "instareach-v3",
+  "version": "3.0.0",
+  "description": "InstaReach v3 — 100 accounts, rate limiting, session management, unified inbox, category targeting",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "node --watch api/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0"
+  }
+}
